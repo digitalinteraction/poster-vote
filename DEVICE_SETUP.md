@@ -15,5 +15,6 @@ This page contains information on setting up new PosterVote devices.
 
 ## Notes
 
-You don't have to use the generated PDF, but it is required to call-in for votes 
+You don't have to use the generated PDF, but creating one sets up the infrastructure to call-in for votes 
 and it has the poster-device pairing information on the back.
+You can generate one then use your own poster design.
