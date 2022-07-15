@@ -18,3 +18,12 @@ This page contains information on setting up new PosterVote devices.
 You don't have to use the generated PDF, but creating one sets up the infrastructure to call-in for votes 
 and it has the poster-device pairing information on the back.
 You can generate one then use your own poster design.
+
+## Known issues
+
+* The numbers on the poster creation form's options are the reverse of the numbers on the physical device.
+  This issue is being tracked here: https://github.com/digitalinteraction/poster-vote-frontend/issues/1
+* The PDF generation takes a while to load, please be patient it can take up to 30 seconds. Issue:
+  https://github.com/digitalinteraction/poster-vote-backend/issues/2
+* The registration wording is slightly incorrect, you need to hold the two buttons until it beeps then release,
+  https://github.com/digitalinteraction/poster-vote-backend/issues/3
