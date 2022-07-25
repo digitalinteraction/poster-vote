@@ -19,6 +19,16 @@ You don't have to use the generated PDF, but creating one sets up the infrastruc
 and it has the poster-device pairing information on the back.
 You can generate one then use your own poster design.
 
+## Reuse
+
+You can use a PosterVote device for multiple deployments.
+To reuse a device, generate a new poster on the website and repeat the registration with the device.
+Now, any votes that are called in for that device will be allocated to the new poster instead
+and the new poster's counts will start at 0.
+
+> When you register a device with a poster, it remembers the votes stored on the device and effectively counts up from there.
+> So the new poster's vote will start from zero.
+
 ## Known issues
 
 * The numbers on the poster creation form's options are the reverse of the numbers on the physical device.
